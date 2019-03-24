@@ -1,15 +1,13 @@
 package World;
 
-import java.util.Random;
-
 public class World {
 
     private final Cell[][] world;
 
     public World(int height, int width) {
         this.world = new Cell[height][width];
-        for(int x = 0; x < world.length; x++) {
-            for(int y = 0; y < world[x].length; y++) {
+        for(int x = 0; x < height; x++) {
+            for(int y = 0; y < width; y++) {
                 world[x][y] = new DeadCell();
             }
         }
@@ -23,39 +21,39 @@ public class World {
     }
 
     public int numberOfLiveNeighbours(int x, int y) {
-        int numberOfAliveNeighbours = 0;
-        int wrappedRow;
-        int wrappedCol;
+        int numberOfLiveNeighbours = 0;
+        int neighbourRow;
+        int neighbourCol;
         for(int row = x - 1; row <= x+1; row++) {
-            wrappedRow = wrapValue(row, world.length);
+            neighbourRow = calculateWrapPosition(row, this.getHeight());
             for(int col = y - 1; col <= y+1; col++) {
-                wrappedCol = wrapValue(col, world[0].length);
-                if (!world[wrappedRow][wrappedCol].equals(world[x][y])) {
-                    if (world[wrappedRow][wrappedCol].isAlive()) {
-                        numberOfAliveNeighbours++;
+                neighbourCol = calculateWrapPosition(col, this.getWidth());
+                if (!world[neighbourRow][neighbourCol].equals(world[x][y])) {
+                    if (world[neighbourRow][neighbourCol].isAlive()) {
+                        numberOfLiveNeighbours++;
                     }
                 }
             }
         }
-        return numberOfAliveNeighbours;
+        return numberOfLiveNeighbours;
     }
 
-    public static int wrapValue(int input, int maxValue) {
+    public static int calculateWrapPosition(int neighbourPosition, int maxLength) {
         int wrappedValue;
-        if(input == -1) {
-            wrappedValue = maxValue - 1;
-        } else if (input == maxValue) {
+        if(neighbourPosition == -1) {
+            wrappedValue = maxLength - 1;
+        } else if (neighbourPosition == maxLength) {
             wrappedValue = 0;
         } else {
-            wrappedValue = input;
+            wrappedValue = neighbourPosition;
         }
         return wrappedValue;
     }
 
     public boolean isEmpty() {
         boolean isDead = true;
-        for(int x = 0; x < world.length; x++) {
-            for(int y = 0; y < world[x].length; y++) {
+        for(int x = 0; x < this.getHeight(); x++) {
+            for(int y = 0; y < this.getWidth(); y++) {
                 if(world[x][y].isAlive()) {
                     isDead = false;
                 }
@@ -106,8 +104,8 @@ public class World {
         if((((World) obj).getHeight() != this.getHeight()) || (((World) obj).getWidth() != this.getWidth())) {
             return false;
         }
-        for(int x = 0; x < this.world.length; x++) {
-            for(int y = 0; y < this.world[0].length; y++) {
+        for(int x = 0; x < this.getHeight(); x++) {
+            for(int y = 0; y < this.getWidth(); y++) {
                 if (this.world[x][y].isAlive() != ((World) obj).world[x][y].isAlive()) {
                     return false;
                 }

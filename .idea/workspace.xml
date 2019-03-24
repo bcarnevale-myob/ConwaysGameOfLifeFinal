@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9f1001f-8145-4bc4-a48b-fb7933243c5b" name="Default Changelist" comment="" />
+    <list default="true" id="c9f1001f-8145-4bc4-a48b-fb7933243c5b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/World/World.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/World/World.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,7 +19,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/ConwaysGameOfLifeTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="30">
               <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -47,7 +49,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/RandomInitialStateTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="255">
               <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -86,8 +88,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/World/World.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="67">
+              <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
               <folding>
                 <element signature="e#1924#1925#0" expanded="true" />
                 <element signature="e#1964#1965#0" expanded="true" />
@@ -107,7 +109,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/NumberOfLiveNeighboursTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="30">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -119,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/CellIsAliveTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
+            <state relative-caret-position="390">
               <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -170,12 +172,12 @@
         <option value="$PROJECT_DIR$/src/World/FakeConwayRandom.java" />
         <option value="$PROJECT_DIR$/src/World/StubConwayRandom.java" />
         <option value="$PROJECT_DIR$/src/World/MockConwayRandom.java" />
-        <option value="$PROJECT_DIR$/src/World/World.java" />
         <option value="$PROJECT_DIR$/test/RandomInitialStateTests.java" />
+        <option value="$PROJECT_DIR$/src/World/World.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="797" />
@@ -186,28 +188,27 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="conways" type="b2602c69:ProjectViewProjectNode" />
-              <item name="conways" type="462c0819:PsiDirectoryNode" />
+              <item name="conwaysFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conwaysFinal" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="conways" type="b2602c69:ProjectViewProjectNode" />
-              <item name="conways" type="462c0819:PsiDirectoryNode" />
+              <item name="conwaysFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conwaysFinal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="conways" type="b2602c69:ProjectViewProjectNode" />
-              <item name="conways" type="462c0819:PsiDirectoryNode" />
+              <item name="conwaysFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conwaysFinal" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="World" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="conways" type="b2602c69:ProjectViewProjectNode" />
-              <item name="conways" type="462c0819:PsiDirectoryNode" />
+              <item name="conwaysFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conwaysFinal" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -215,6 +216,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -224,7 +226,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552948244984" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553471224687" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -254,22 +256,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.RandomInitialStateTests">
+  <component name="RunManager" selected="JUnit.All in conways">
+    <configuration name="All in conways" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="conways" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RandomInitialStateTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="conways" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RandomInitialStateTests" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomInitialStateTests.ifARandomWorldIsCreated_itIsNoLongerEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="conways" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RandomInitialStateTests" />
-      <option name="METHOD_NAME" value="ifARandomWorldIsCreated_itIsNoLongerEmpty" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -306,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in conways" />
         <item itemvalue="JUnit.RandomInitialStateTests" />
         <item itemvalue="JUnit.RandomInitialStateTests.ifConwayRandomProducesOneAndThree_OneLiveCellIsPlacedAtThreeThree" />
         <item itemvalue="JUnit.RandomInitialStateTests.ifTwoRandomWorldsCreated_theyShouldNotMatch" />
         <item itemvalue="JUnit.RandomInitialStateTests.ifUserChoosesRandom_thereWillBeSomeAliveCells" />
-        <item itemvalue="JUnit.RandomInitialStateTests.ifARandomWorldIsCreated_itIsNoLongerEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -327,6 +327,7 @@
       <workItem from="1551826575076" duration="6586000" />
       <workItem from="1552339947616" duration="58089000" />
       <workItem from="1552960124987" duration="1396000" />
+      <workItem from="1553470209678" duration="886000" />
     </task>
     <servers />
   </component>
@@ -363,13 +364,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90255000" />
+    <option name="totallyTimeSpent" value="91141000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4992908" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -521,7 +522,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/ConwaysGameOfLifeTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="30">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -536,10 +537,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/World/AliveCell.java">
+    <entry file="file://$PROJECT_DIR$/test/RandomInitialStateTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -566,7 +570,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/NumberOfLiveNeighboursTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="30">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -576,7 +580,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/CellIsAliveTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="390">
           <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -584,20 +588,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/RandomInitialStateTests.java">
+    <entry file="file://$PROJECT_DIR$/src/World/AliveCell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="64" selection-start-line="20" selection-start-column="64" selection-end-line="20" selection-end-column="64" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/World/World.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="35" column="21" lean-forward="true" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="67">
+          <caret line="55" column="46" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
           <folding>
             <element signature="e#1924#1925#0" expanded="true" />
             <element signature="e#1964#1965#0" expanded="true" />
